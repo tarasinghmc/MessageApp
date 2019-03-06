@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B6A4C25223049A1002CB80B /* sendDeselect.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B6A4C22223049A1002CB80B /* sendDeselect.png */; };
+		9B6A4C26223049A1002CB80B /* sendDeselect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B6A4C23223049A1002CB80B /* sendDeselect@2x.png */; };
+		9B6A4C27223049A1002CB80B /* sendDeselect@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B6A4C24223049A1002CB80B /* sendDeselect@3x.png */; };
 		9BA2DD9A222C2435007B1182 /* ChatbotConversation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9BA2DD98222C2435007B1182 /* ChatbotConversation.xcdatamodeld */; };
 		9BB496CD2229A26E00641141 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB496CC2229A26E00641141 /* AppDelegate.swift */; };
 		9BB496CF2229A26E00641141 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB496CE2229A26E00641141 /* ViewController.swift */; };
@@ -23,6 +26,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B6A4C22223049A1002CB80B /* sendDeselect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sendDeselect.png; sourceTree = "<group>"; };
+		9B6A4C23223049A1002CB80B /* sendDeselect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sendDeselect@2x.png"; sourceTree = "<group>"; };
+		9B6A4C24223049A1002CB80B /* sendDeselect@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sendDeselect@3x.png"; sourceTree = "<group>"; };
 		9BA2DD99222C2435007B1182 /* ChatbotConversation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChatbotConversation.xcdatamodel; sourceTree = "<group>"; };
 		9BB496C92229A26E00641141 /* MessageApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessageApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BB496CC2229A26E00641141 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +97,9 @@
 			children = (
 				9BB496E7222A5A3000641141 /* send.png */,
 				9BB496E6222A5A3000641141 /* send@2x.png */,
+				9B6A4C22223049A1002CB80B /* sendDeselect.png */,
+				9B6A4C23223049A1002CB80B /* sendDeselect@2x.png */,
+				9B6A4C24223049A1002CB80B /* sendDeselect@3x.png */,
 				9BB496E5222A5A2F00641141 /* send@3x.png */,
 			);
 			path = Images;
@@ -156,10 +165,13 @@
 			files = (
 				9BB496D72229A26F00641141 /* LaunchScreen.storyboard in Resources */,
 				9BB496D42229A26F00641141 /* Assets.xcassets in Resources */,
+				9B6A4C27223049A1002CB80B /* sendDeselect@3x.png in Resources */,
 				9BB496D22229A26E00641141 /* Main.storyboard in Resources */,
+				9B6A4C26223049A1002CB80B /* sendDeselect@2x.png in Resources */,
 				9BB496E8222A5A3000641141 /* send@3x.png in Resources */,
 				9BB496E9222A5A3000641141 /* send@2x.png in Resources */,
 				9BB496EA222A5A3000641141 /* send.png in Resources */,
+				9B6A4C25223049A1002CB80B /* sendDeselect.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
